@@ -4,11 +4,14 @@
   "description": "Hyper plugin for npm shortcuts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch": "node Makefile.js patch",
+    "minor": "node Makefile.js minor",
+    "major": "node Makefile.js major"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gyandeeps/hyper-npm.git"
+    "url": "git+https://github.com/gyandeeps/hypernpm.git"
   },
   "keywords": [
     "hyper",
@@ -22,9 +25,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gyandeeps/hyper-npm/issues"
+    "url": "https://github.com/gyandeeps/hypernpm/issues"
   },
-  "homepage": "https://github.com/gyandeeps/hyper-npm#readme",
+  "homepage": "https://github.com/gyandeeps/hypernpm#readme",
   "devDependencies": {
     "shelljs": "^0.7.5"
   },
