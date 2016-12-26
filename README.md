@@ -1,3 +1,5 @@
+[![NPM version](https://badge.fury.io/js/hypernpm.svg)](http://badge.fury.io/js/hypernpm)
+
 hypernpm
 =========
 
@@ -10,12 +12,12 @@ To install, edit `~/.hyper.js` and add `"hypernpm"` to `plugins`:
 ```js
 plugins: [                                                                                               
   "hypernpm",                                                                                           
-],   
+]
 ```
 
 ## Use
 
-**Shortcut:** `ALT + <NUM>`
+**Shortcut:** `ALT + <NUM>`   
 **NUM:** 0 to 9 (inclusive)
 
 #### Defaults
