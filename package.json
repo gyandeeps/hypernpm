@@ -1,0 +1,28 @@
+{
+  "name": "hyper-npm",
+  "version": "0.0.1",
+  "description": "Hyper plugin for npm shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyandeeps/hyper-npm.git"
+  },
+  "keywords": [
+    "hyper",
+    "npm",
+    "plugin",
+    "hyper plugin"
+  ],
+  "author": {
+    "name": "Gyandeep Singh",
+    "email": "gyandeeps@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gyandeeps/hyper-npm/issues"
+  },
+  "homepage": "https://github.com/gyandeeps/hyper-npm#readme"
+}
