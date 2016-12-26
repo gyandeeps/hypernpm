@@ -1,5 +1,5 @@
 {
-  "name": "hyper-npm",
+  "name": "hypernpm",
   "version": "0.0.1",
   "description": "Hyper plugin for npm shortcuts",
   "main": "index.js",
@@ -24,5 +24,11 @@
   "bugs": {
     "url": "https://github.com/gyandeeps/hyper-npm/issues"
   },
-  "homepage": "https://github.com/gyandeeps/hyper-npm#readme"
+  "homepage": "https://github.com/gyandeeps/hyper-npm#readme",
+  "devDependencies": {
+    "shelljs": "^0.7.5"
+  },
+  "files": [
+    "index.js"
+  ]
 }
