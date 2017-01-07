@@ -1,6 +1,6 @@
 {
   "name": "hypernpm",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hyper plugin for npm shortcuts",
   "main": "index.js",
   "scripts": {
