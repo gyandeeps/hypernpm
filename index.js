@@ -3,7 +3,15 @@ const defaultConfg = {
     2: "test"
 };
 
-const getRunCommand = (cmd) => `npm run ${cmd}`;
+const npmCommands = ['access', 'adduser', 'bin', 'bugs', 'c', 'cache', 'completion', 'config',
+    'ddp', 'dedupe', 'deprecate', 'dist-tag', 'docs', 'edit', 'explore', 'get',
+    'help', 'help-search', 'i', 'init', 'install', 'install-test', 'it', 'link',
+    'list', 'ln', 'login', 'logout', 'ls', 'outdated', 'owner', 'pack', 'ping',
+    'prefix', 'prune', 'publish', 'rb', 'rebuild', 'repo', 'restart', 'root',
+    'run', 'run-script', 's', 'se', 'search', 'set', 'shrinkwrap', 'star',
+    'stars', 'start', 'stop', 't', 'tag', 'team', 'test', 'tst', 'un', 'uninstall',
+    'unpublish', 'unstar', 'up', 'update', 'v', 'version', 'view', 'whoami'];
+const getRunCommand = (cmd) => (npmCommands.includes(cmd) ? `npm ${cmd}` : `npm run ${cmd}`);
 const isValidKeycode = (keyCode) => parseInt(keyCode, 10) >= 48 && parseInt(keyCode, 10) <=57;
 const isValidKey = (key) => parseInt(key, 10) >= 0 && parseInt(key, 10) <=9;
 const hasCommand = (config, keyCode) => isValidKeycode(keyCode) && config.hasOwnProperty(keyCode);
