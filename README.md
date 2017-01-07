@@ -3,7 +3,7 @@
 hypernpm
 =========
 
-Use keyboard shortcuts to run npm script commands.
+Use keyboard shortcuts to run npm commands or scripts.
 
 ## Install
 
@@ -29,7 +29,7 @@ plugins: [
 
 To configure, edit `~/.hyper.js` and add `hypernpm` to `config`:
 
-Define 0 to 9 keys and attach it to some package.json script command.
+Define 0 to 9 keys and point it to a native npm command or a script from `package.json`.
 
 Example:
 
@@ -37,7 +37,9 @@ Example:
 {
     config: {
         hypernpm: {
+            // wil run `npm run lint`
             1: "lint",
+            // will run `npm test` since it's a native npm command
             5: "test"
         }
     }
