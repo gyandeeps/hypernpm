@@ -37,7 +37,7 @@ Example:
 {
     config: {
         hypernpm: {
-            // wil run `npm run lint`
+            // will run `npm run lint`
             1: "lint",
             // will run `npm test` since it's a native npm command
             5: "test"
